@@ -1,9 +1,9 @@
 function [xValues,searchDir,stepLength,errorValues] = ...
     BFGSAlgorithm(f,x0,errorValueMax,iterMax)
-% Steepest descent method
+% BFGS
 %
 %
-% J. Sebasti·n Hurtado J.
+% J. Sebasti√°n Hurtado J.
 
 
 % Create output arrays
